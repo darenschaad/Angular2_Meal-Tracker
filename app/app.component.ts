@@ -23,7 +23,8 @@ export class AppComponent {
     this.meals = [
       new Meal("Hamburger", "Single patty w/ cheese", 675),
       new Meal("Yogurt and Granola", "So healthy", 285),
-      new Meal("Pasta Bolognese", "Italian Sausage & Mushrooms", 650)
+      new Meal("Pasta Bolognese", "Italian sausage & mushrooms", 650),
+      new Meal("Cereal and Milk", "Cheerios with 1% milk", 250)
     ];
   }
   mealWasSelected(clickedMeal: Meal): void {
