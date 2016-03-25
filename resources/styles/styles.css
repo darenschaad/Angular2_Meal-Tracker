@@ -1,5 +1,5 @@
 .selected {
-  color: #22bdf0;
+  color: #5B9AA6;;
 }
 
 .padding {
@@ -24,7 +24,7 @@ body {
   margin: 5px;
   border: 1px solid #111;
   background: transparent;
-  width: 270px;
+  width: 192px;
   padding: 5px 35px 5px 5px;
   font-size: 16px;
   border: 1px solid #ccc;
@@ -57,6 +57,7 @@ body {
   font-family: 'Orbitron', sans-serif;
   font-size: 5em;
   font-weight: bold;
+    color: #5B9AA6;
 }
 
 .header img {

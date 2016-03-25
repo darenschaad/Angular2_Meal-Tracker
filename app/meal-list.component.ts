@@ -14,8 +14,8 @@ import { NewMealComponent} from './new-meal.component';
   template: `
   <select class="calories" (change)="onCalorie($event.target.value)">
     <option value="all">Show All Meals</option>
-    <option value="low">Meals 300 Calories or Less </option>
-    <option value="high">Meals Over 300 Calories </option>
+    <option value="low">300 Calories or Less </option>
+    <option value="high">Over 300 Calories </option>
   </select>
     <meal-display *ngFor="#currentMeal of mealList | calorie:filterCalorie"
     (click)="mealClicked(currentMeal)"
