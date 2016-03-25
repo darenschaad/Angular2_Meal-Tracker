@@ -1,0 +1,90 @@
+.selected {
+  color: #22bdf0;
+}
+
+.padding {
+  padding-top: 75px;
+}
+
+body {
+  background-color: #FFFEEE;
+}
+
+.task-form {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.input-lg {
+  margin: 3px;
+
+}
+
+.calories {
+  margin: 5px;
+  border: 1px solid #111;
+  background: transparent;
+  width: 270px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(http://vignette3.wikia.nocookie.net/adventuretimewithfinnandjake/images/7/7d/Apple.png/revision/latest?cb=20120817164648) 96% / 10% no-repeat #eee;
+}
+/*target Internet Explorer 9 and Internet Explorer 10:*/
+@media screen and (min-width:0\0) {
+    select {
+        background:none;
+        padding: 5px;
+    }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: beige;
+  width: 100%;
+  height: 30vh;
+  top: 0;
+  left: 0;
+  }
+
+.header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.header img {
+  max-width: 200px;
+  max-height: auto;
+}
+
+@-webkit-keyframes wiggle {
+  0% {
+  -webkit-transform:rotate(6deg);
+  }
+  50% {
+  -webkit-transform:rotate(-6deg);
+  }
+  100% {
+  -webkit-transform:rotate(6deg);
+  }
+}
+
+.wiggle {
+  margin-top: 0vh;
+  font-size: 10em;
+}
+
+.wiggle:hover {
+  -webkit-animation: wiggle 0.5s infinite;
+}
+
+.center {
+  text-align: center;
+}
