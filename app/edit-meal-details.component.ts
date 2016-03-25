@@ -5,10 +5,12 @@ import { Meal } from './meal.model';
   selector: 'edit-meal-details',
   inputs: ['meal'],
   template: `
-    <div class="meal-form padding">
+    <div class="selected padding">
       <h1>{{meal.name}}</h1>
       <h3>Details: {{meal.details}}</h3>
       <h3>Calories: {{meal.calories}}</h3>
+    </div>
+    <div class="meal-form padding">
       <form>
         <div class="form-group">
         <h4>Edit {{meal.name}}\'s Name:</h4>
